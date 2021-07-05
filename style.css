@@ -1,6 +1,21 @@
 body{
-margin: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .menu{
+    overflow: hidden;
+}
+.menu a {
+    color: #1d1c1c;
+    float: left;
+    text-decoration: none;
+    padding: 10px 22px;
+    font-size: 17px;
 
+}
+.menu a:hover{
+    color: #009688;
+}
+.menu-right{
+    float: right;
 }
